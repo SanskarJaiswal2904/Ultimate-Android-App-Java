@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189249787194",
+    "project_id": "signinwith-demo-f06fb",
+    "storage_bucket": "signinwith-demo-f06fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189249787194:android:ee1abf87b1090a7651ec03",
+        "android_client_info": {
+          "package_name": "com.example.signinwithgoogledemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj7PmmWo6aeLELTpXYKgzFYwEpj3KWoI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/urlToImageView"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/alfiesolomon" />
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/urlToImageView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="-244dp"
+                android:layout_toEndOf="@+id/urlToImageView"
+                android:layout_toRightOf="@+id/urlToImageView"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="2"
+                android:text="Solomon"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descriptionView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleView"
+                android:layout_alignTop="@id/titleView"
+                android:layout_alignRight="@id/urlToImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="-241dp"
+                android:layout_toEndOf="@+id/urlToImageView"
+                android:layout_toRightOf="@+id/urlToImageView"
+                android:ellipsize="end"
+                android:fontFamily="serif"
+                android:maxLines="5"
+                android:text="a jewish Man"
+                android:textAlignment="textStart"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/authorView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionView"
+                android:layout_alignRight="@id/urlToImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="-239dp"
+                android:layout_toEndOf="@+id/urlToImageView"
+                android:layout_toRightOf="@+id/urlToImageView"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Alfie"
+                android:textAlignment="viewEnd"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/publishedAtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/authorView"
+                android:layout_alignTop="@id/authorView"
+                android:layout_alignRight="@id/urlToImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="-241dp"
+                android:layout_toEndOf="@+id/urlToImageView"
+                android:layout_toRightOf="@+id/urlToImageView"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="2024.01.20"
+                android:textAlignment="viewEnd"
+                android:textColor="#565252"
+                android:textSize="10sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#5A6869"
+                android:paddingTop="5dp"
+                android:layout_below="@+id/urlToImageView"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
